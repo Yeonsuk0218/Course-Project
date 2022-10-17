@@ -248,7 +248,10 @@ table(subset_UCIHAR_by_subject_activity$subject_id
 
 ## save "subset_UCIHAR_by_subject_activity.txt" file 
 filename <- paste0(relative_path, '/subset_UCIHAR_by_subject_activity.txt')
-fwrite(x=subset_UCIHAR_by_subject_activity, file=filename, sep=' ',append=FALSE)
+# fwrite(x=subset_UCIHAR_by_subject_activity, file=filename, sep=' ',append=FALSE)
+
+## Course Instructions
+write.table(x=subset_UCIHAR_by_subject_activity, file=filename, row.name=FALSE)
 
 
 ##--------------- The end of Week4: Course Project ----------------
