@@ -166,10 +166,9 @@
 * ### Used __aggregate()__ _to group by_ __subject and activity__ and _renamed grouping columns._
     + ### *Grouping order: __subject__ is the first and __activity__ is the second.*
 
-* ### Used __fwrite()__ to create a new data set, __subset_UCIHAR_by_subject_activity__ that has _180 rows and 88 columns._
+* ### Used __write.table()__ to create a new data set, __subset_UCIHAR_by_subject_activity__ that has _180 rows and 88 columns._
     + ### _Total rows(180): 30 subject x 6 activity._ 
     + ### _Total columns(88): subject(1) + activity(1) + subset of features(86)._
     
-* ### The __"subset_UCIHAR_by_subject_activity.txt"__ was saved using one space as seperator for column.
-
+* ### The final text file name is __"subset_UCIHAR_by_subject_activity.txt".__
 
